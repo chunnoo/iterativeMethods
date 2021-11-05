@@ -1,0 +1,39 @@
+html,
+body {
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.subWrapper {
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.subWrapper p {
+  padding-left: 1em;
+  color: white;
+  font-family: monospace, monospace;
+}
+
+canvas {
+  width: 512px;
+  height: 512px;
+  image-rendering: pixelated;
+}
