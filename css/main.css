@@ -27,13 +27,14 @@ body {
 }
 
 .subWrapper p {
+  font-size: 1vw;
   padding-left: 1em;
   color: white;
   font-family: monospace, monospace;
 }
 
 canvas {
-  width: 512px;
-  height: 512px;
+  width: calc(33vw - 2em);
+  height: calc(33vw - 2em);
   image-rendering: pixelated;
 }
